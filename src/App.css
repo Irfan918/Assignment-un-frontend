@@ -1,0 +1,9 @@
+body{
+    background-color: #F6F8FA;
+}
+.app{
+    display: flex;
+}
+.model{
+    display: contents
+}

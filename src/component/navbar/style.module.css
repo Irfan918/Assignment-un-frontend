@@ -1,0 +1,73 @@
+.navbar {
+    display: inline-flex;
+    height: 62rem;
+    padding: 1rem 1.25rem 1.25rem 1.875rem;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.dashbord {
+    display: flex;
+    width: 5.625rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0.8rem
+}
+
+.adminText {
+    color: #D63500;
+    border-radius: 0.7rem;
+    background-color: #fbe6e0;
+    padding: 0rem 0.4rem;
+    border: 1px solid;
+    margin-top: 1rem;
+}
+
+.roundStatus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+@media(max-width:500px) {
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1000;
+    }
+
+    .menu {
+        color: #1C4980;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    .menuHead {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(min-width:501px){
+    .menuHead{
+        display: none;
+    }
+ .navbar{
+    display: inline-flex;
+ }   
+}

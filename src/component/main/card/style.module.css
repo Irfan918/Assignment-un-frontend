@@ -1,0 +1,236 @@
+
+.main {
+    margin: 0rem 1rem;
+    background-color: #FFF;
+    border: 1px solid var(--border-color-primary);
+    border-radius: 12px;
+    padding: 14px;
+    min-width: 300px;
+    
+}
+
+.header {
+    display: flex;
+    padding-top: 0.7rem;
+}
+
+.header span {
+    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.headerTitle1 {
+    padding: 0.8rem 1rem;
+    color: #1C4980;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 140%;
+}
+
+.headerTitle2 {
+    color: #0073E6;
+    font-size: 0.875rem;
+    line-height: normal;
+    border-bottom: 1px solid;
+    padding: 1.3rem;
+}
+.assessmentOverview{
+    padding: 1rem;
+}
+.assessmentTitle{
+    color: #1C4980;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.cardDetail{
+    display: flex;
+    border: 1px solid #00000057;
+    border-radius: 5px;
+}
+.firstCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    padding-left: 1.3rem;
+    padding-right: 5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+.TotalAssessment{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.number{
+    color:#1C4980;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; 
+}
+.firstContent{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+}
+.canditate{
+    color: #1C4980;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.totalSize{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+position: absolute;
+    margin: 1.4rem -4.5rem
+}
+.whoAtemped{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+position: absolute;
+    margin: 1.4rem -3.5rem;
+}
+
+.myassessment{
+    margin-left: 1rem;
+    color:#1C4980;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.assessmentCard{
+    display: flex;
+    margin-right: 1rem
+}
+.assessmentSubCard{
+    display: flex;
+    padding: 0rem 1rem;
+}
+.assessmentSubCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #000000b3;
+    border-radius: 5px;
+}
+.math{
+    color: #1C4980;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.job{
+    color: var(--text-100, #1C4980);
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.date{
+    color: var(--primary-50, #8DA4BF);
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.content1{
+    display: flex;
+    gap: 11.5rem;
+    margin-top: 1rem;
+}
+.subcontent1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    
+}
+.subContent2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 11.5rem
+}
+.subContent3{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.subContent3{
+    display: flex;
+    gap: 1rem;
+}
+.colorStyle{
+    color:#1C4980;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    padding: 0rem 0.3rem;
+}
+.lp{
+    background-color: #2424cf;
+    border-radius: 50%;
+    color: white;
+    padding: 0.1rem;
+    position: absolute;
+    margin-top: 0.6rem;
+}
+@media(max-width:500px){
+    .content1{
+        display: flex;
+    gap: 7rem;
+    margin-top: 1rem
+    }
+    .svgdot{
+        width: 20px;
+    }
+    .svgdot1{
+        width: 313px;
+    }
+    .subContent2{
+        gap: 7rem;
+    }
+    .assessmentSubCard{
+        margin-left: 0.9rem;
+    }
+
+}

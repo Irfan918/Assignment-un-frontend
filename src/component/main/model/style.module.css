@@ -1,0 +1,97 @@
+.cardContent {
+    display: flex;
+    padding: 1.875rem 4.66rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 0.75rem;
+    border: 1px dashed #DADCE0;
+    background-color: #F6F8FA;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.logo {
+    display: flex;
+    width: 4.375rem;
+    height: 4.375rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 4.5rem;
+    background-color: #FFF;
+}
+
+.newassessment {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.childnewassessment {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 46ch;
+}
+.form{
+    margin-top: 1rem;
+}
+
+.form label {
+    color: #1C4980;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input::placeholder {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 0.975rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    color: #1C4980;
+    font-family: Inter;
+    font-size: 0.975rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+@media(max-width:500px){
+    .cardContent{
+        padding: 1rem 4.66rem;
+    }
+}
